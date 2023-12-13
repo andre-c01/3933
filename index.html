@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta  lang="en">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>x BLOG</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/charts.css/dist/charts.min.css">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <nav class="navbar">
+    <div class="navbar_container">
+      <h1>x BLOG</h1>
+      <h3>A RAMDOM BLOG</h3>
+    </div>
+  </nav>
+
+  <body>
+    <div class="main">
+      <div class="main_container">
+
+        <div class="column-1">
+
+          <div tabindex="0" class="entry" id="post1">
+            <div class="header">
+              <h2 class="title">post1</h2>
+              <p class="read_time"><span id="time"></span> min</p>
+            </div>
+            <hr>
+            <div class="summary">
+              <p>Lorem Ipsum is simply dummy text</p>
+            </div>
+            <div class="body">
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+              <img src="https://clipart-library.com/images_k/cute-cat-transparent/cute-cat-transparent-8.png" style="width: 60px;">
+            </div>
+            <p class="date">01/12/2023</p>
+          </div>
+
+          <div tabindex="0" class="entry" id="post2">
+            <div class="header">
+              <h2 class="title">post2</h2>
+              <p class="read_time"><span id="time"></span> min</p>
+            </div>
+            <hr>
+            <div class="summary">
+              <p>Lorem Ipsum is simply dummy text</p>
+            </div>
+            <div class="body">
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+              <img src="https://clipart-library.com/images_k/cute-cat-transparent/cute-cat-transparent-8.png" style="width: 60px;">
+            </div>
+            <p class="date">01/12/2023</p>
+          </div>
+
+          <div tabindex="0" class="entry" id="post3">
+            <div class="header">
+              <h2 class="title">post3</h2>
+              <p class="read_time"><span id="time"></span> min</p>
+            </div>
+            <hr>
+            <div class="summary">
+              <p>Lorem Ipsum is simply dummy text</p>
+            </div>
+            <div class="body">
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+              <img src="https://clipart-library.com/images_k/cute-cat-transparent/cute-cat-transparent-8.png" style="width: 60px;">
+            </div>
+            <p class="date">01/12/2023</p>
+          </div>
+
+          <div tabindex="0" class="entry" id="post4">
+            <div class="header">
+              <h2 class="title">post4</h2>
+              <p class="read_time"><span id="time"></span> min</p>
+            </div>
+            <hr>
+            <div class="summary">
+              <p>Lorem Ipsum is simply dummy text</p>
+            </div>
+            <div class="body">
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+              <img src="https://clipart-library.com/images_k/cute-cat-transparent/cute-cat-transparent-8.png" style="width: 60px;">
+            </div>
+            <p class="date">01/12/2023</p>
+          </div>
+
+          <div tabindex="0" class="entry" id="post5">
+            <div class="header">
+              <h2 class="title">post5</h2>
+              <p class="read_time"><span id="time"></span> min</p>
+            </div>
+            <hr>
+            <div class="summary">
+              <p>Lorem Ipsum is simply dummy text</p>
+            </div>
+            <div class="body">
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+              <img src="https://clipart-library.com/images_k/cute-cat-transparent/cute-cat-transparent-8.png" style="width: 60px;">
+            </div>
+            <p class="date">01/12/2023</p>
+          </div>
+
+        </div>
+
+        <div class="column-2">
+
+          <div class="num_entries widget">
+            <h3>Number Of Entries</h3>
+            <h3 id="num_entries" style="text-align: center;"></h3>
+          </div>
+
+          <div class="freq_chart widget">
+            <h3>Freq. Chart:</h3>
+            <div id="freq-chart">
+              <table class="charts-css area show-data-axes show-4-secondary-axes">
+                <tr><td style="--start: 0.0; --end: 0.25;"></td></tr>
+                <tr><td style="--start: 0.25; --end: 0.30;"></td></tr>
+                <tr><td style="--start: 0.0; --end: 0.0;"></td></tr>
+                <tr><td style="--start: 0.0; --end: 0.0;"></td></tr>
+                <tr><td style="--start: 0.0; --end: 0.0;"></td></tr>
+                <tr><td style="--start: 0.0; --end: 0.0;"></td></tr>
+                <tr><td style="--start: 0.0; --end: 0.0;"></td></tr>
+              </table>
+            </div>
+          </div>
+
+          <div class="music widget">
+            <h3>Listening:</h3>
+            <audio controls loop preload="auto"><source src="https://invidious.no-logs.com/latest_version?id=dzCuwjHFd7M&itag=140"></audio>
+            <h3>Lofi 24/7 Radio:</h3>
+            <audio controls loop preload="auto"><source src="http://usa9.fastcast4u.com/proxy/jamz?mp=/1"></audio>
+          </div>
+
+          <div class="video widget">
+            <h3>Watching:</h3>
+            <embed src="https://invidious.no-logs.com/embed/UQG-HoYt-44">
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </body>
+
+  <script src="scripts.js"></script>
+</html>
