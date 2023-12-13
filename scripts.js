@@ -15,7 +15,7 @@ for(var i =0, il = body_items.length;i<il;i++){
   body_items[i].querySelector('#time').innerText = readingTime(body_items[i].querySelector('.body'));
   //console.log(body_items[i].querySelector('#time').innerText)
 
-  if (i+1 == il) {
+  if (i == 0) {
     body_items[i].focus();
   }
 }
